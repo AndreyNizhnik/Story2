@@ -1,6 +1,22 @@
 git init
 git status
+git log
 git add
+git rm --cached -r .
 git committ -m "message"
 git diff
 git checkout
+
+Push:
+git remote add origin https://github.com/AndreyNizhnik/Story-3.git
+git branch -M main
+git push -u origin main
+
+Cloning:
+git clone url
+
+Branchning:
+git branch name-of-branch
+git branch
+git checkout name-of-branch
+git merge name-of-branch
